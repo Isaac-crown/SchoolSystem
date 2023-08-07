@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolSystem.Application.Service.Interface
+namespace SchoolSystem.Infrastructure.Services
 {
-    public interface IStudentServices
+    public class ServiceManager
     {
     }
 }

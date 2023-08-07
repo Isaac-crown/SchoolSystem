@@ -9,6 +9,7 @@ namespace SchoolSystem.Application.Interface
 {
     public interface IStudentRepository
     {
-        void AddTeacherDetials(Teacher )
+        void AddTeacherDetials(Student student);
+
     }
 }

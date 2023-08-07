@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SchoolSystem.Application.Interface
 {
-    internal interface IRepositoryManager
+    public interface IRepositoryManager
     {
+        IStudentRepository StudentRepository { get; }
+
+        ITeacherRepository TeacherRepository { get; }
+
+
+        Task SaveAsync();
     }
 }

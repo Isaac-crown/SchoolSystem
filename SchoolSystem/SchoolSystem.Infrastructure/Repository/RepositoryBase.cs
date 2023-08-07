@@ -1,4 +1,5 @@
-﻿using SchoolSystem.Application.Interface;
+﻿using Microsoft.EntityFrameworkCore;
+using SchoolSystem.Application.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;

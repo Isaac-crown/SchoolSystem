@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Domain", "SchoolSystem\SchoolSystem.Domain.csproj", "{DCE876D2-465A-4FA1-96AE-40CE85E9080D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Domain", "SchoolSystem\SchoolSystem.Domain.csproj", "{DCE876D2-465A-4FA1-96AE-40CE85E9080D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Presentation", "SchoolSystem.Presentation\SchoolSystem.Presentation.csproj", "{F361E549-148C-4583-9F3C-2D8156D16782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Presentation", "SchoolSystem.Presentation\SchoolSystem.Presentation.csproj", "{F361E549-148C-4583-9F3C-2D8156D16782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Application", "SchoolSystem.Application\SchoolSystem.Application.csproj", "{B5FA95B5-B5CE-48CE-B601-6F434B643F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Application", "SchoolSystem.Application\SchoolSystem.Application.csproj", "{B5FA95B5-B5CE-48CE-B601-6F434B643F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Infrastructure", "SchoolSystem.Infrastructure\SchoolSystem.Infrastructure.csproj", "{799D0CC7-4774-4038-8206-5FA6E0081A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Infrastructure", "SchoolSystem.Infrastructure\SchoolSystem.Infrastructure.csproj", "{799D0CC7-4774-4038-8206-5FA6E0081A0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

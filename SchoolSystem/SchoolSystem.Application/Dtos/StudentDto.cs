@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SchoolSystem.Application.Dtos
 {
-    internal class StudentDto
+    public class StudentDto
     {
+        public string NationalIdNumber { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string StudentNumber { get; set; }
     }
 }

@@ -1,5 +1,11 @@
+using SchoolSystem.Presentation.Extension;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.ConfigurePostgreSqlContext(builder.Configuration);
+builder.Services.ConfigureRepositoryManager();
+//builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureCors();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
