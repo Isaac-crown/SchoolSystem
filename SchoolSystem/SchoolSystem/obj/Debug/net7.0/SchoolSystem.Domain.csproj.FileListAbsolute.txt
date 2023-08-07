@@ -1,0 +1,12 @@
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\bin\Debug\net7.0\SchoolSystem.Domain.deps.json
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\bin\Debug\net7.0\SchoolSystem.Domain.dll
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\bin\Debug\net7.0\SchoolSystem.Domain.pdb
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.AssemblyInfo.cs
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.dll
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\refint\SchoolSystem.Domain.dll
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\SchoolSystem.Domain.pdb
+C:\Users\Adetunjici\source\repos\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\net7.0\ref\SchoolSystem.Domain.dll
