@@ -5,3 +5,16 @@
 /.vs
 /SchoolSystem/SchoolSystem.Infrastructure/obj
 /SchoolSystem/SchoolSystem.Presentation/obj
+/SchoolSystem/.vs/SchoolSystem/config
+/SchoolSystem/.vs/SchoolSystem/FileContentIndex
+/SchoolSystem/SchoolSystem/obj/Debug/net7.0
+/SchoolSystem/SchoolSystem.Application/obj/Debug/net7.0
+/SchoolSystem/SchoolSystem.Presentation/bin/Debug/net7.0
+/SchoolSystem/Tests.Test
+/SchoolSystem/YourNamespace.Test
+/SchoolSystem/Tests/obj/Debug/net7.0
+/SchoolSystem/Tests/obj
+/SchoolSystem/Tests
+/SchoolSystem/Test/obj
+/SchoolSystem/Test
+*.txt
