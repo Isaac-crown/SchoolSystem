@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EVq7iaR/hva6oU5ACTuGivYqMuXJ3RxblqMKjW2RihVuHexO+lsXWFGFFLW53qE0p5wx3CID3W5ahWNonIYDvw==",
+  "dgSpecHash": "wN//ymR14AbPWX2TcypMiho0dFv6/C8aSa+/RRzoeP2/NSspp5JMLsRuiixosp+APepD9wDjKc0d8d5LHbhCOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Adetunjici\\source\\repos\\SchoolSystem\\SchoolSystem\\SchoolSystem.Application\\SchoolSystem.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Adetunjici\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Adetunjici\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

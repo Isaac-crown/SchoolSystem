@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Application", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Infrastructure", "SchoolSystem.Infrastructure\SchoolSystem.Infrastructure.csproj", "{799D0CC7-4774-4038-8206-5FA6E0081A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DDECE756-C2E5-4F9D-B080-490949F2779C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{799D0CC7-4774-4038-8206-5FA6E0081A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799D0CC7-4774-4038-8206-5FA6E0081A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799D0CC7-4774-4038-8206-5FA6E0081A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDECE756-C2E5-4F9D-B080-490949F2779C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDECE756-C2E5-4F9D-B080-490949F2779C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDECE756-C2E5-4F9D-B080-490949F2779C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDECE756-C2E5-4F9D-B080-490949F2779C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

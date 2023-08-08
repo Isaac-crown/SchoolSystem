@@ -1,12 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SchoolSystem.Application.Shared
 {
-    internal class MaximumAgeAttribute
+
+
+    [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false)]
+    public class MaximumAgeAttribute : ValidationAttribute
     {
+        private readonly int _maxAge;
+
+        public MaximumAgeAttribute(int maxAge)
+        {
+            _maxAge = maxAge;
+        }
+
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            if (value is DateTime dateOfBirth)
+            {
+                var age = DateTime.Now.Year - dateOfBirth.Year;
+
+                if (DateTime.Now.DayOfYear < dateOfBirth.DayOfYear)
+                    age--;
+
+                if (age > _maxAge)
+                {
+                    return new ValidationResult(ErrorMessage);
+                }
+            }
+
+            return ValidationResult.Success;
+        }
     }
+
+
 }
