@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SchoolSystem.Application.Dtos;
+using SchoolSystem.Application.Shared;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +10,6 @@ namespace SchoolSystem.Application.Service.Interface
 {
     public interface IStudentServices
     {
+        Task<GenericResponse<StudentDto>> CreateStudent(StudentDto student);
     }
 }

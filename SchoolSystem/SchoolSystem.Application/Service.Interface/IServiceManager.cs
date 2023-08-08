@@ -8,5 +8,8 @@ namespace SchoolSystem.Application.Service.Interface
 {
     public interface IServiceManager
     {
+        IStudentServices StudentServices { get; }
+
+        ITeacherServices    TeachersServices { get; }
     }
 }

@@ -9,6 +9,11 @@ namespace SchoolSystem.Application.Interface
 {
     public interface ITeacherRepository
     {
-        void AddTeacherDetails(Student student);
+        Task<IEnumerable<Teacher>> GetAllTeachersAsync(bool trackChanges);
+        void AddTeacherDetails(Teacher teacher);
+
+        Task<Teacher> GetByTeacherNo(string teacherNo, bool trackChanges);
+
+
     }
 }

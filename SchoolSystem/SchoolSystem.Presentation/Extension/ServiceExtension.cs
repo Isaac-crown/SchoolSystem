@@ -3,6 +3,7 @@ using SchoolSystem.Application.Interface;
 using SchoolSystem.Application.Service.Interface;
 using SchoolSystem.Infrastructure.Repository;
 using SchoolSystem.Infrastructure.Services;
+using System.Reflection;
 
 namespace SchoolSystem.Presentation.Extension
 {
@@ -27,7 +28,9 @@ namespace SchoolSystem.Presentation.Extension
         public static void ConfigureRepositoryManager(this IServiceCollection services) =>
             services.AddScoped<IRepositoryManager, RepositoryManager>();
 
-       // public static void ConfigureServiceManager(this IServiceCollection services) =>
-         //   services.AddScoped<IServiceManager, ServiceManager>();
+        public static void ConfigureServiceManager(this IServiceCollection services) =>
+            services.AddScoped<IServiceManager, ServiceManager>();
+
+
     }
 }

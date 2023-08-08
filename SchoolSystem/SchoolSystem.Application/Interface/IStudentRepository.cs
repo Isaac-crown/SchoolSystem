@@ -1,15 +1,16 @@
-﻿using SchoolSystem.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using SchoolSystem.Domain.Entities;
 
 namespace SchoolSystem.Application.Interface
 {
     public interface IStudentRepository
     {
-        void AddTeacherDetials(Student student);
+        Task<IEnumerable<Student>> GetAllStudents(bool trackChanges);
+
+        Task<Student> GetByStudentNumber(string studentNo, bool trackChanges);
+        void AddStudentDetials(Student student);
+
 
     }
 }
