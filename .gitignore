@@ -18,3 +18,8 @@
 /SchoolSystem/Test/obj
 /SchoolSystem/Test
 *.txt
+/SchoolSystem/SchoolSystem.Application/bin/Debug/net7.0/SchoolSystem.Application.deps.json
+/SchoolSystem/SchoolSystem.Application/bin/Debug/net7.0/SchoolSystem.Application.dll
+/SchoolSystem/SchoolSystem.Application/bin/Debug/net7.0/SchoolSystem.Application.pdb
+/SchoolSystem/SchoolSystem.Application/obj/Debug/net7.0/ref/SchoolSystem.Application.dll
+/SchoolSystem/SchoolSystem.Application/obj/Debug/net7.0/refint/SchoolSystem.Application.dll
